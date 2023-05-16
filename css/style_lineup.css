@@ -78,6 +78,8 @@ nav .icon-burger .line {
     transition: all .3s ease-in-out;
 }
 
+/* Votre CSS existant */
+
 .lineup {
     padding: 20px;
 }
@@ -90,17 +92,23 @@ nav .icon-burger .line {
 .artists-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
 }
 
 .artist {
     text-align: center;
+    margin-bottom: 120px;
+}
+
+.artist:hover {
+    scale: 1.2;
 }
 
 .artist img {
-    width: 100%;
-    height: auto;
+    width: 40%;
+    height: 100%;
     max-height: 200px;
+    object-fit: cover; /* Permet de conserver le ratio de l'image et de la centrer */
+    border-radius: 10%;
 }
 
 .artist h3 {
@@ -108,6 +116,38 @@ nav .icon-burger .line {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* bouton en noir et blanc qui inverse le noir et blanc quand on passe par dessus dans un carré */
+button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+}
+
+/* maintenant le hover qui inverse le blanc et le noir  */
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.btnBan {
+    margin: 0 auto;
+}
+
 
 /** Nav Bar responsive**/
 @media screen and (max-width: 800px) {
