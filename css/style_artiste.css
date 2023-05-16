@@ -174,13 +174,14 @@ nav .icon-burger .line {
     flex-direction: column;
     height: 100%;
     z-index: 1;
-    gap: 15px;
+    gap: 25px;
 }
 
 .text p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 0;
     font-family: "Andale Mono", monospace;
+    letter-spacing: 2px;
 }
 
 .text h1 {
