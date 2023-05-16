@@ -350,6 +350,7 @@ ul{
 	background-color: white;
 	width: 400px;
 	margin: 150px auto;
+	margin-bottom: -140px;
 	padding: 20px;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -382,8 +383,8 @@ ul{
 
 button .btnticket{
 	background-color: black;
-	display: flex;
-	justify-content: center;
+	display: block;
+	margin: 0 auto;
 	color: white;
 	border: none;
 	padding: 10px 20px;
@@ -391,8 +392,6 @@ button .btnticket{
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin-top: 20px;
-	margin-left: 20px;
 	transition: all 0.5s;
 	font-size: 0.8em;
 	cursor: pointer;
@@ -406,5 +405,9 @@ button#btnAcheter:hover {
 	color: black;
 }
 
+.container_ticket{
+	margin-bottom: 20px;
+	height: 1400px;
+}
 
 
