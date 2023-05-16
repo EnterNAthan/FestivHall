@@ -185,7 +185,7 @@ button:hover {
 	color: black;
 }
 
-#btnBan {
+.btnBan {
 	display: block;
 	margin: 0 auto;
 }
@@ -259,6 +259,3 @@ button:hover {
 	color: white;
 }
 /* ca marche pas ptn par pitie essaye de rapprochez le titre en haut des h6  */
-#j2{
-	margin-top: 700px !important;
-}
