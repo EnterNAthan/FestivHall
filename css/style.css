@@ -346,6 +346,65 @@ ul{
 }
 }
 
+.ticket {
+	background-color: white;
+	width: 400px;
+	margin: 150px auto;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-title {
+	margin-bottom: 10px;
+}
+
+.ticket-title h2 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.ticket-title p {
+	font-size: 14px;
+	color: #888;
+}
+
+.ticket-price {
+	text-align: right;
+}
+
+.ticket-price h3 {
+	font-size: 24px;
+	color: #333;
+	margin: 0;
+}
+
+button .btnticket{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 20px;
+	transition: all 0.5s;
+	font-size: 0.8em;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+}
+
+button#btnAcheter:hover {
+	background-color: white;
+	color: black;
+}
 
 
 
