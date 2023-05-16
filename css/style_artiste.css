@@ -180,8 +180,8 @@ nav .icon-burger .line {
 .text p {
     font-size: 1.5rem;
     margin: 0;
-    font-family: "Andale Mono", monospace;
     letter-spacing: 2px;
+    font-family: "Roboto Light", sans-serif;
 }
 
 .text h1 {
