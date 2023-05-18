@@ -11,6 +11,43 @@ a {
     color: black;
 }
 
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title span {
+    display: inline-block;
+    position: relative;
+}
+
+.title span:before,
+.title span:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #bb1010;
+    top: 50%;
+}
+
+.title span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.title span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
 /** Nav Bar**/
 nav {
     position: fixed;

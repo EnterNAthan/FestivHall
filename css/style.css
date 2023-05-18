@@ -9,7 +9,6 @@ a {
 	color: black;
 }
 
-
 /** Nav Bar**/
 nav {
 	position: fixed;
@@ -76,6 +75,36 @@ nav .icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 
+@media screen and (min-width: 1550px) {
+	.text h4 a {
+		font-size: 120px;
+	}
+
+	.text h6 a {
+		font-size: 100px;
+	}
+
+	footer.footer{
+		margin-top: 400px;
+	}
+}
+
+@media screen and (min-width: 1750px) {
+	.text h4 a {
+		font-size: 160px;
+	}
+
+	.text h6 a {
+		font-size: 130px;
+	}
+
+	footer.footer{
+		margin-top: 900px;
+	}
+}
+
+
+
 /** Nav Bar responsive**/
 @media screen and (max-width: 800px) {
 	nav .logo {
@@ -132,7 +161,7 @@ nav .icon-burger .line {
 	background-size: cover;
 	height: 650px;
 	width: 100%;
-	top: 0px;
+	top: 0;
 	padding-top: 60px;
 }
 
@@ -159,7 +188,6 @@ nav .icon-burger .line {
 /* bouton en noir et blanc qui inverse le noir et blanc quand on passe par dessus dans un carré */
 button {
 	background-color: black;
-	display: flex;
 	justify-content: center;
 	color: white;
 	border: none;
@@ -167,7 +195,6 @@ button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
 	margin-top: 20px;
 	margin-left: 20px;
 	transition: all 0.5s;
@@ -261,7 +288,6 @@ button:hover {
 	color: white;
 }
 
-
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -274,6 +300,7 @@ ul{
 	list-style: none;
 }
 .footer{
+	margin-top: 10px;
 	background-color: #24262b;
     padding: 70px 0;
 }
@@ -308,7 +335,6 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -349,8 +375,7 @@ ul{
 .ticket {
 	background-color: white;
 	width: 400px;
-	margin: 150px auto;
-	margin-bottom: -140px;
+	margin: 150px auto -140px;
 	padding: 20px;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -390,10 +415,8 @@ button .btnticket{
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
 	font-size: 16px;
 	transition: all 0.5s;
-	font-size: 0.8em;
 	cursor: pointer;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -409,5 +432,3 @@ button#btnAcheter:hover {
 	margin-bottom: 20px;
 	height: 1400px;
 }
-
-
