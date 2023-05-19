@@ -432,3 +432,24 @@ button#btnAcheter:hover {
 	margin-bottom: 20px;
 	height: 1400px;
 }
+.gallerie{
+    display: flex;
+	background-color: #1e1e1e00;
+	flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+	max-width: 1300px;
+	margin: 50px auto 0;
+	margin-bottom: 50px;
+}
+.item{
+	width: 300px;
+    height: 200px;
+	flex-shrink: 0;
+	margin: 10px;
+	overflow: hidden;
+}
+.item img {
+    height: auto;
+	width: 100%;
+}
