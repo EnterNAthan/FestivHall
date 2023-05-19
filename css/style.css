@@ -164,7 +164,37 @@ nav .icon-burger .line {
 	top: 0;
 	padding-top: 60px;
 }
+.imageban2 {
+	background: url(../images/ban.jpg);
+	background-size: cover;
+	height: 450px;
+	width: 100%;
+	top: 0;
+	padding-top: 60px;
+}
+.imageban2 h1{
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 200px;
+	text-shadow: 3px 3px 3px black;
+}
+.imageban3{
+	background: url(../images/ban3.jpg);
+	background-size: cover;
+	height: 450px;
+	width: 100%;
+	top: 0;
+	padding-top: 60px;
+}
 
+.imageban3 h1{
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 200px;
+	text-shadow: 3px 3px 3px black;
+}
 .textover {
 	display: block;
 	color: #fff;
@@ -441,6 +471,7 @@ button#btnAcheter:hover {
 	max-width: 1300px;
 	margin: 50px auto 0;
 	margin-bottom: 50px;
+	margin-top: 200px;
 }
 .item{
 	width: 300px;
@@ -452,4 +483,17 @@ button#btnAcheter:hover {
 .item img {
     height: auto;
 	width: 100%;
+}
+.gallerie2{
+	display: block;
+	margin: 0 auto ;
+	background-color: #1e1e1e00;
+	margin: auto 0;
+}
+
+.gallerie2 img{
+	display: block;
+	margin: 0 auto ;
+	width: 50%;
+	height: 50%;
 }
